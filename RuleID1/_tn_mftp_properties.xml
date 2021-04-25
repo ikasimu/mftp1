@@ -1,5 +1,5 @@
 <mftp>
-    <transferName>IFRS_Production_Exceptions</transferName>
+    <transferName>IFRS_Production_Exceptions_1</transferName>
     <environment>dev</environment>
     <source>
         <name>Source</name>
@@ -13,8 +13,8 @@
         </destination>
         <destination>
             <name>Backup</name>
-            <url>\\\10.0.3.20\\c$\\IFRS9_V2\\EXCEPTIONS\\Archive\\</url>
+            <url>\\\10.0.3.20\\c$\\IFRS9_V2\\EXCEPTIONS\\Archive\\
+</url>
         </destination>
     </destinations>
 </mftp>
-
