@@ -1,0 +1,20 @@
+<mftp>
+    <transferName>BPS_ADO_SPLITTER_TO_ENTERPRISE</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\hoprdappclv01\\BPS_Outbound\\Enterprise\\ADO\\D8\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[WIN]\\\10.0.2.18\\c$\\FTP Folders\\DirectTransact\\ENTERPRISE_PRODUCTION\\TO_ENTERPRISE\\ADO\\D8H\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>C:\\Users\\FILEMO~1\\AppData\\Local\\Temp\\2\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

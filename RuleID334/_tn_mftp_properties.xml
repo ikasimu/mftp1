@@ -1,0 +1,20 @@
+<mftp>
+    <transferName>FRM_VETSPLITTER_SUREBANK</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\hoprdappclv01\\BPS_Outbound\\Amber\\EFT\\ER\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[WIN]\\\10.0.2.18\\c$\\FTP Folders\\Surebank\\FTP\\To_Mycomax\\VET_REPORT\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url></url>
+        </destination>
+    </destinations>
+</mftp>
+

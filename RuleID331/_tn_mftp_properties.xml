@@ -1,0 +1,20 @@
+<mftp>
+    <transferName>FMR_VET_SPLITTER_TO_RETRIEVER</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\hoprdappclv01\\BPS_Outbound\\Retriever\\EFT\\ER\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[WIN]\\\10.0.2.18\\FTP Folders\\Olympus\\PRODUCTION\\EFT_FILES\\TO_RETRIEVER\\VET REPORT\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url></url>
+        </destination>
+    </destinations>
+</mftp>
+

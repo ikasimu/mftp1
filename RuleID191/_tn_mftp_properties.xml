@@ -1,0 +1,20 @@
+<mftp>
+    <transferName>SIS to EDCON</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\hoprdappclv01\\d$\\SIS_OUTBOUND\\OUTBOUND_EDCON\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[WIN]\\\10.0.2.18\\c$\\FTP Folders\\Edcon\\OUTBOUND\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>\\\hofp03\\d$\\Archived\\SIS\\EDCON-SIS\\PROD\\OUTBOUND\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

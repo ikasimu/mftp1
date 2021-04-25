@@ -1,0 +1,20 @@
+<mftp>
+    <transferName>FRM_ROBOT_SWIFT_GROBANK_TO_OPS</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\hoapprbt02\\e$\\Robot_Inbound\\Swift\\Grobank\\Logs\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID2[WIN]\\\hofp02\\operations department2\\SWIFT Recon\\Grobank\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>\\\hofp03\\d$\\Archived\\Filemover Backup\\OLYMPUS\\DEVELOPMENT\\SWIFT\\OLYMPUS\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

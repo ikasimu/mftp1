@@ -1,0 +1,24 @@
+<mftp>
+    <transferName>T24_BOP_2_Heywood</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\192.168.2.215\\UD\\BOP.OUT\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID2[WIN]\\\HOFP02\\Regulatory_reporting\\</url>
+        </destination>
+        <destination>
+            <name>Destination2</name>
+            <url>ID1[WIN]\\\192.168.2.215\\UD\\BOP.OUT\\Archive\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>\\\hofp03\\d$\\Archived\\Filemover Backup\\Haywoods\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

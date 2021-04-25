@@ -1,0 +1,32 @@
+<mftp>
+    <transferName>FMR_ABSA ACDF_SIS</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\10.0.2.18\\c$\\FTP Folders\\ABSAGoAML\\INBOUND\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID4[WIN]\\\192.168.2.80\\d$\\SIS_INBOUND\\INBOUND_ABSA_ACDF\\</url>
+        </destination>
+        <destination>
+            <name>Destination2</name>
+            <url>ID2[WIN]\\\192.168.2.35\\d$\\SIS_INBOUND\\INBOUND_ABSA_ACDF\\</url>
+        </destination>
+        <destination>
+            <name>Destination3</name>
+            <url>ID1[WIN]\\\houatappclv01\\d$\\SIS_INBOUND\\INBOUND_ABSA_ACDF\\</url>
+        </destination>
+        <destination>
+            <name>Destination4</name>
+            <url>ID3[WIN]\\\hoprdappclv01\\d$\\SIS_INBOUND\\INBOUND_ABSA_ACDF\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>\\\hofp02\\GAP\\goAML\\ABSA Backup\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

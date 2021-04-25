@@ -1,0 +1,28 @@
+<mftp>
+    <transferName>TO_INTELLIMATCH</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\hofp03\\d$\\Archived\\Filemover Backup\\Intellimatch\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[SFTP]GBEM01PRDSFTP@intellimatch-sftp1.fisglobal.com:22/SYNC</url>
+        </destination>
+        <destination>
+            <name>Destination2</name>
+            <url>ID2[SFTP]GBEM01UATSFTP@intellimatch-uat-sftp1.fisglobal.com:22/SYNC</url>
+        </destination>
+        <destination>
+            <name>Destination3</name>
+            <url>ID3[WIN]\\\hofp01\\Operations\\INTELLIMATCH FILES\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url></url>
+        </destination>
+    </destinations>
+</mftp>
+

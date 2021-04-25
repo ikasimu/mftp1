@@ -1,0 +1,20 @@
+<mftp>
+    <transferName>SIS_AB_TO_AMBER</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[SFTP]filemover@192.168.2.91:22/abinitio/data/landing/sis_outbound/outbound_amber</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[WIN]\\\10.0.2.18\\c$\\FTP Folders\\Surebank\\SIS_OUTBOUND\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>\\\hofp03\\d$\\Archived\\SIS\\AMBER-SIS\\PROD\\OUTBOUND\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

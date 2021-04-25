@@ -1,0 +1,20 @@
+<mftp>
+    <transferName>BPS_PRD_RTC_OUTBOUND_TO_BANKSERV_SLBY</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\hoprdappclv01\\BPS_Outbound\\BankServ\\RTC\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[SFTP]BoAthens@196.6.202.24:22/ftp/</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>\\\hofp03\\d$\\Archived\\Filemover Backup\\SEC_PROD\\BANKSERV\\TO_BANKSERV\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

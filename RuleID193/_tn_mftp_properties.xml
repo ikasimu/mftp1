@@ -1,0 +1,20 @@
+<mftp>
+    <transferName>SIS to Olympus</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\hoprdappclv01\\d$\\SIS_OUTBOUND\\OUTBOUND_OLYMPUS\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[WIN]\\\10.0.2.18\\c$\\FTP Folders\\Olympus\\PRODUCTION\\SIS_OUTBOUND\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>\\\hofp03\\d$\\Archived\\SIS\\OLYMPUS-SIS\\OUTBOUND\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

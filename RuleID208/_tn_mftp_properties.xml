@@ -1,0 +1,24 @@
+<mftp>
+    <transferName>SAMEDAY_UNPAIDS_EZAGA</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\10.0.2.18\\c$\\FTP Folders\\Ezaga\\PRODUCTION\\EFT\\FROM_EZAGA\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID2[WIN]\\\hoprdappclv01\\BPS_Inbound\\Ezaga\\SAMEDAY\\</url>
+        </destination>
+        <destination>
+            <name>Destination2</name>
+            <url>ID1[WIN]\\\hofp03\\d$\\Archived\\Filemover Backup\\Intellimatch\\TO_BANKSERV\\EZA\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>\\\10.0.2.18\\c$\\FTP Folders\\Ezaga\\PRODUCTION\\EFT\\FROM_EZAGA\\ARCHIVE\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

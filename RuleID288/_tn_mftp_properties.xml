@@ -1,0 +1,28 @@
+<mftp>
+    <transferName>DFH*</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\hoprdappclv01\\BPS_Outbound\\Internal\\DF\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID2[WIN]\\\10.0.2.18\\c$\\FTP Folders\\Surebank\\AEDO\\To_Mycomax\\</url>
+        </destination>
+        <destination>
+            <name>Destination2</name>
+            <url>ID1[WIN]\\\HOPRDGPAPP01\\c$\\Applications\\AEDONAEDO\\IncomingFiles\\</url>
+        </destination>
+        <destination>
+            <name>Destination3</name>
+            <url>ID3[WIN]\\\hofp03\\d$\\Archived\\Filemover Backup\\Intellimatch\\FRM_BANKSERV\\ADO\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>\\\hofp03\\d$\\Archived\\Filemover Backup\\DFH\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

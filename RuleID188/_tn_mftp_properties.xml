@@ -1,0 +1,20 @@
+<mftp>
+    <transferName>Daily_057_Report_SIS_EXTRACTS</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\hoprdappclv01\\d$\\SIS_ENT_NEW_REPORTS\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[WIN]\\\hofp02\\gap\\SIS Extracts\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>\\\hofp03\\d$\\Archived\\SIS\\SIS_REPORTS\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

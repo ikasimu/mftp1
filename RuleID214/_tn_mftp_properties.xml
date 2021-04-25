@@ -1,0 +1,20 @@
+<mftp>
+    <transferName>TO_LPFF_STATEMENT</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\HOFP03\\LPFF_Statements\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID2[FTP]AFF\Grobank@sftp.fidfund.co.za:2121</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>\\\hofp03\\d$\\Archived\\Filemover Backup\\LPFF_STATEMENTS\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

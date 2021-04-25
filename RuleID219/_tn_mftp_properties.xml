@@ -1,0 +1,20 @@
+<mftp>
+    <transferName>FRM_BPS_Outbound_to_Unigro_Unpaids</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\hoprdappclv01\\BPS_Outbound\\Unigro\\EFT\\UNPAIDS\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[WIN]\\\10.0.2.18\\C$\\FTP Folders\\Olympus\\PRODUCTION\\EFT_FILES\\UNIGRO\\TO_UNIGRO\\EFT\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>\\\hofp03\\d$\\Archived\\Filemover Backup\\UNIGRO\\PRODUCTION\\UNPAID\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

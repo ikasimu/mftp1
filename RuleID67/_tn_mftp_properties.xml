@@ -1,0 +1,20 @@
+<mftp>
+    <transferName>T24_MT1Other_INBOUND</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[SFTP]bathzajj@196.36.104.24:22/T24/MT1Other/</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[WIN]\\\192.168.2.215\\ud\\ALLIANCE\\SWIFT.ENC.IN\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>\\\hofp03\\d$\\Archived\\Filemover Backup\\T24 Swift\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

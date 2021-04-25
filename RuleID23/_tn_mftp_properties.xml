@@ -1,0 +1,24 @@
+<mftp>
+    <transferName>MEDICOOP_TO_BPS_INBOUND</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\10.71.5.21\\d$\\FTPROOT\\MEDICOOP\\INBOUND\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[WIN]\\\hoprdappclv01\\d$\\BPS_Inbound\\Medicoop\\</url>
+        </destination>
+        <destination>
+            <name>Destination2</name>
+            <url>ID2[WIN]\\\hofp03\\d$\\Archived\\Filemover Backup\\Intellimatch\\TO_BANKSERV\\MDI\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>\\\hofp03\\d$\\Archived\\PRD\\BPS\\MEDICOOP\\FROM\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

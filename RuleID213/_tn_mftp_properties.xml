@@ -1,0 +1,20 @@
+<mftp>
+    <transferName>SIS_OUTBOUND_ALLIANCE_REPTS</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\hoprdappclv01\\d$\\SIS_OUTBOUND\\OUTBOUND_REPORTS\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[WIN]\\\hofp02\\SISReports\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url></url>
+        </destination>
+    </destinations>
+</mftp>
+

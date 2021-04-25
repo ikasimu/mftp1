@@ -1,0 +1,28 @@
+<mftp>
+    <transferName>FRM_SWIFT_DAILYPRT_AUTO</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[SFTP]bathzajj@196.36.104.24:22/bankserv/customers/BATH/Printing/</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[WIN]\\\hofp02\\IBDPrinting$\\</url>
+        </destination>
+        <destination>
+            <name>Destination2</name>
+            <url>ID2[WIN]\\\192.168.2.215\\ud\\ACKSWIFT.IN\\</url>
+        </destination>
+        <destination>
+            <name>Destination3</name>
+            <url>ID3[WIN]\\\hofp02\\IBD DEPARTMENT\\AAA Printed Deals\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url></url>
+        </destination>
+    </destinations>
+</mftp>
+

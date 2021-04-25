@@ -1,0 +1,20 @@
+<mftp>
+    <transferName>FMR_EFT_SPLITTER_TO_UNIGRO_ONEDAY</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\hoprdappclv01\\BPS_Outbound\\Unigro\\EFT\\ONEDAY\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[WIN]\\\10.0.2.18\\c$\\FTP Folders\\Olympus\\PRODUCTION\\EFT_FILES\\UNIGRO\\TO_UNIGRO\\EFT\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>\\\hofp03\\d$\\Archived\\Filemover Backup\\UNIGRO\\PRODUCTION\\EFT\\TO UNIGRO\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

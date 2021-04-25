@@ -1,0 +1,24 @@
+<mftp>
+    <transferName>INBOUND_EFT_AUDIT_LOG_V2</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\hoprdappclv01\\BPS_Inbound\\Splime\\Recon\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[WIN]\\\hofp02\\OPERATIONS DEPARTMENT2\\EFT AUDIT LOG\\</url>
+        </destination>
+        <destination>
+            <name>Destination2</name>
+            <url>ID2[WIN]\\\10.0.2.18\\c$\\FTP Folders\\DirectTransact\\ENTERPRISE_PRODUCTION\\TO_ENTERPRISE\\EFT AUDIT LOG\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url></url>
+        </destination>
+    </destinations>
+</mftp>
+

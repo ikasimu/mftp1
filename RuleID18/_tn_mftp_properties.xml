@@ -1,0 +1,24 @@
+<mftp>
+    <transferName>CPS_TO_BPS_INBOUND</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\10.71.5.21\\d$\\FTPROOT\\CPS\\INBOUND\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[WIN]\\\hoprdappclv01\\BPS_Inbound\\Grobank\\</url>
+        </destination>
+        <destination>
+            <name>Destination2</name>
+            <url>ID2[WIN]\\\hofp03\\d$\\Archived\\Filemover Backup\\Intellimatch\\TO_BANKSERV\\GBK\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>\\\hofp03\\d$\\Archived\\PAYSOFT\\FROM CPS\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

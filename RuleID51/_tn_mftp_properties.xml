@@ -1,0 +1,20 @@
+<mftp>
+    <transferName>AB_REPORTS</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[SFTP]filemover@192.168.2.91:22/abinitio/data/landing/sis_outbound/outbound_other</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[WIN]\\\hofp02\\SISReports\\ENTERPRISE\\REPAYMENT\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url></url>
+        </destination>
+    </destinations>
+</mftp>
+

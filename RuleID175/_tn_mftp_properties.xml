@@ -1,0 +1,32 @@
+<mftp>
+    <transferName>FMR_SIS_OLYMPUS_PRD_INBOUND_DLY</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\10.0.2.18\\c$\\FTP Folders\\Olympus\\PRODUCTION\\SIS_INBOUND\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID2[WIN]\\\192.168.2.35\\d$\\SIS_INBOUND\\INBOUND_OLYMPUS\\</url>
+        </destination>
+        <destination>
+            <name>Destination2</name>
+            <url>ID3[WIN]\\\hoprdappclv01\\d$\\SIS_INBOUND\\INBOUND_OLYMPUS\\</url>
+        </destination>
+        <destination>
+            <name>Destination3</name>
+            <url>ID4[SFTP]filemover@10.70.6.35:22/abinitio/data/landing/sis_inbound/inbound_olympus</url>
+        </destination>
+        <destination>
+            <name>Destination4</name>
+            <url>ID6[SFTP]filemover@192.168.2.91:22/abinitio/data/landing/sis_inbound/inbound_olympus</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>\\\hofp03\\d$\\Archived\\SIS\\OLYMPUS-SIS\\INBOUND\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

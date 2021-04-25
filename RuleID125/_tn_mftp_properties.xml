@@ -1,0 +1,20 @@
+<mftp>
+    <transferName>FRM_ROBOT_STATEMENT_TO_FlexPay</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\hoapprbt02\\e$\\Robot_Outbound\\Statements\\FlexPay\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID2[WIN]\\\10.71.5.21\\d$\\FTPROOT\\FLEXPAY\\OUTBOUND\\REPORTS\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>\\\hofp03\\d$\\Archived\\Filemover Backup\\FLEXPAY\\PRD\\TO\\STATEMENT\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

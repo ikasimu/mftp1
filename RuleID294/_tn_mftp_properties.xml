@@ -1,0 +1,20 @@
+<mftp>
+    <transferName>Uncap_INT_TO_OPERATIONS</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\10.0.2.18\\c$\\FTP Folders\\DirectTransact\\ENTERPRISE_PRODUCTION\\FROM ENTERPRISE\\General\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[WIN]\\\hofp02\\OPERATIONS DEPARTMENT2\\Uncap_Int_Analysis\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url></url>
+        </destination>
+    </destinations>
+</mftp>
+

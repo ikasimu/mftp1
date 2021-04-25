@@ -1,0 +1,20 @@
+<mftp>
+    <transferName>FX_DEALS_DONE_GCFS</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\192.168.2.215\\UD\\FX.MONTHEND.RTPS\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[WIN]\\\hofp02\\Grocapital FEC\\FX_DEALS_DONE\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>\\\hofp02\\GAP\\T24\\T24 Bulk Printing_Statement\\Statement_Backup\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

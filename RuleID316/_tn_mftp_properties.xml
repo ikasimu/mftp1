@@ -1,0 +1,20 @@
+<mftp>
+    <transferName>FMR_EFT_SPLITTER_TO_TUTUKA_DATED</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\hoprdappclv01\\BPS_Outbound\\Tutuka\\EFT\\DATED\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[WIN]\\\10.0.2.18\\c$\\FTP Folders\\Tutuka\\PRODUCTION\\TO_TUTUKA\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>\\\hofp03\\d$\\Archived\\Filemover Backup\\TUTUKA\\PRODUCTION\\EFT\\TO TUTUKA\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

@@ -1,0 +1,24 @@
+<mftp>
+    <transferName>PAYSOFT_TO_BPS_INBOUND</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\10.71.5.21\\d$\\FTPROOT\\PAYSOFT\\INBOUND\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[WIN]\\\hoprdappclv01\\BPS_Inbound\\PaySoft\\</url>
+        </destination>
+        <destination>
+            <name>Destination2</name>
+            <url>ID2[WIN]\\\hofp03\\d$\\Archived\\Filemover Backup\\Intellimatch\\TO_BANKSERV\\PSFT\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>\\\hofp03\\d$\\Archived\\PAYSOFT\\FROM PAYSOFT\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

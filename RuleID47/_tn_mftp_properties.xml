@@ -1,0 +1,20 @@
+<mftp>
+    <transferName>IFRS_UAT_Exceptions</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\10.0.3.20\\c$\\IFRS9\\EXCEPTIONS\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[WIN]\\\hofp02\\IFRS_UAT\\C_STAGING AND REPORTS\\REPORTS\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>\\\10.0.3.20\\c$\\IFRS9\\EXCEPTIONS\\Archive\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

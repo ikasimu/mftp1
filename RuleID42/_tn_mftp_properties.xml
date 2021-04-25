@@ -1,0 +1,20 @@
+<mftp>
+    <transferName>PAYSOFTCARD_SALARIES_OLYMPUS</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\10.71.5.21\\d$\\FTPROOT\\PAYSOFT\\INBOUND\\ON_US\\PAYSOFT_CARD\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[WIN]\\\10.0.2.18\\c$\\FTP Folders\\Olympus\\DEVELOPMENT\\TO PAYSOFT CARD SALARIES\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>\\\hofp03\\d$\\Archived\\Filemover Backup\\PAYSOFTCARD\\PRODUCTION\\EFT\\FROM PAYSOFTCARD\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

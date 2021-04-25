@@ -1,0 +1,24 @@
+<mftp>
+    <transferName>FMR_MOMENTUM_VISA_REPORTING_TO_HOFP01_PRODUCT</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\10.0.2.18\\c$\\FTP Folders\\MMI\\PRODUCTION\\VISA REPORTING\\FROM\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[WIN]\\\hofp01\\Product\\Card\\VISA REPORTS\\</url>
+        </destination>
+        <destination>
+            <name>Destination2</name>
+            <url>ID2[WIN]\\\hofp02\\OPERATIONS DEPARTMENT2\\VISA SETTLEMENT REPORT -MMH\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>\\\hofp03\\d$\\Archived\\Filemover Backup\\Momentum\\Production\\VISA_REPORTING\\FROM_MMH\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

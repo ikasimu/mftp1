@@ -1,0 +1,20 @@
+<mftp>
+    <transferName>FRM_VETSPLITTER_ENTERPRISE</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\hoprdappclv01\\BPS_Outbound\\Enterprise\\EFT\\ER\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[WIN]\\\10.0.2.18\\c$\\FTP Folders\\DirectTransact\\ENTERPRISE_PRODUCTION\\TO_ENTERPRISE\\VET REPORT\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url></url>
+        </destination>
+    </destinations>
+</mftp>
+

@@ -1,0 +1,24 @@
+<mftp>
+    <transferName>SAMEDAY_UNPAIDS_TUTUKA</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\10.0.2.18\\c$\\FTP Folders\\Tutuka\\PRODUCTION\\FROM_TUTUKA\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID2[WIN]\\\hoprdappclv01\\BPS_Inbound\\Tutuka\\SAMEDAY\\</url>
+        </destination>
+        <destination>
+            <name>Destination2</name>
+            <url>ID1[WIN]\\\hofp03\\d$\\Archived\\Filemover Backup\\Intellimatch\\TO_BANKSERV\\TKA\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>\\\10.0.2.18\\c$\\FTP Folders\\Tutuka\\PRODUCTION\\FROM_TUTUKA\\ARCHIVE\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

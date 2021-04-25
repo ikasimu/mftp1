@@ -1,0 +1,24 @@
+<mftp>
+    <transferName>DUH* - SUREBANK</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\10.0.2.18\\c$\\FTP Folders\\Surebank\\AEDO\\From_Mycomax\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[WIN]\\\hoprdappclv01\\BPS_Inbound\\Amber\\DU\\</url>
+        </destination>
+        <destination>
+            <name>Destination2</name>
+            <url>ID2[WIN]\\\hofp03\\d$\\Archived\\Filemover Backup\\Intellimatch\\TO_BANKSERV\\AMB\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>D:\\Filemover\\Archive\\DUH\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

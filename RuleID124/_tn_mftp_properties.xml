@@ -1,0 +1,20 @@
+<mftp>
+    <transferName>FRM_ROBOT_SWIFT_FlexPay_TO_OPS</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\hoapprbt02\\e$\\Robot_Inbound\\Swift\\FlexPay\\Logs\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID2[WIN]\\\hofp02\\operations department2\\SWIFT Recon\\FlexPay\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>C:\\Users\\FILEMO~1\\AppData\\Local\\Temp\\3\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

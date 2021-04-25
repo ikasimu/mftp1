@@ -1,0 +1,24 @@
+<mftp>
+    <transferName>FMR_PAYSOFT_CARD_SAMEDAY_TO_BANKSERV</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\10.0.2.18\\c$\\FTP Folders\\Olympus\\PRODUCTION\\EFT_FILES\\PAYSOFT_CARD\\FROM PAYSOFT CARD\\SAMEDAY\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[WIN]\\\hoprdappclv01\\BPS_Inbound\\PaysoftCard\\SAMEDAY\\</url>
+        </destination>
+        <destination>
+            <name>Destination2</name>
+            <url>ID2[WIN]\\\hofp03\\d$\\Archived\\Filemover Backup\\Intellimatch\\TO_BANKSERV\\PSFT\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>\\\hofp03\\d$\\Archived\\Filemover Backup\\PAYSOFTCARD\\PRODUCTION\\EFT\\FROM PAYSOFTCARD\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

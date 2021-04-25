@@ -1,0 +1,20 @@
+<mftp>
+    <transferName>BALANCE ENQUIRY</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\192.168.2.215\\d$\\t24prod\\t24\\bnk\\UD\\DT.BAL.OUT\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[WIN]\\\Hoappwebsys01\\T24Services\\BalanceEnquiry\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url></url>
+        </destination>
+    </destinations>
+</mftp>
+

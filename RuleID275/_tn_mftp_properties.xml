@@ -1,0 +1,20 @@
+<mftp>
+    <transferName>FRM_ABSA_942_TO_DT</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\10.0.2.18\\c$\\FTP Folders\\ABSAGoAML\\NMB00352\\INBOUND\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID3[WIN]\\\10.0.2.18\\c$\\FTP Folders\\DirectTransact\\ENTERPRISE_PRODUCTION\\TO_ENTERPRISE\\ABSA FILES\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>\\\hofp03\\d$\\Archived\\Filemover Backup\\DIRECT TRANSACT\\PRODUCTION\\ABSA\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

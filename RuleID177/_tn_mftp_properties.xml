@@ -1,0 +1,32 @@
+<mftp>
+    <transferName>PROD_GP</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\HOPRDGPAPP01\\c$\\Applications\\USL\\GP_OUT\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID4[WIN]\\\192.168.2.80\\d$\\SIS_INBOUND\\INBOUND_GP\\</url>
+        </destination>
+        <destination>
+            <name>Destination2</name>
+            <url>ID2[WIN]\\\hofp03\\d$\\Archived\\Filemover Backup\\Intellimatch\\GP\\</url>
+        </destination>
+        <destination>
+            <name>Destination3</name>
+            <url>ID1[SFTP]filemover@192.168.2.91:22/abinitio/data/landing/sis_inbound/inbound_gp</url>
+        </destination>
+        <destination>
+            <name>Destination4</name>
+            <url>ID3[SFTP]filemover@10.70.6.35:22/abinitio/data/landing/sis_inbound/inbound_gp</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>\\\hofp03\\d$\\Archived\\SIS\\GP-SIS\\PROD\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

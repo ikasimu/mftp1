@@ -1,0 +1,20 @@
+<mftp>
+    <transferName>PAYSOFT_TO_AVS_OUTBOUND_BT</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\hoprdappclv01\\avs_outbound\\PAYSOFT\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[WIN]\\\10.71.5.21\\D$\\FTPROOT\\PAYSOFT\\OUTBOUND\\AVS\\BT\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>\\\hofp03\\d$\\Archived\\PAYSOFT\\TO PAYSOFT\\AVS\\PRODUCTION\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

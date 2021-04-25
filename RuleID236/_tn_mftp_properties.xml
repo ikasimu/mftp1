@@ -1,0 +1,20 @@
+<mftp>
+    <transferName>FMR_BPS_OUTBOUND_TO_SUREBANK</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\hoprdappclv01\\BPS_Outbound\\Amber\\SEC\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[WIN]\\\10.0.2.18\\c$\\FTP Folders\\Surebank\\SEC_PROD\\TO_AMBER\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>\\\hofp03\\d$\\Archived\\Filemover Backup\\SEC_PROD\\AMBER\\FRM_BPS\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

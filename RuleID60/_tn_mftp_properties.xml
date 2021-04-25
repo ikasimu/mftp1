@@ -1,0 +1,20 @@
+<mftp>
+    <transferName>BLKPRT_T24_STATEMENTS_OUTBOUND</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\HOPRDBULKPR01\\T24\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[WIN]\\\hofp02\\statements\\T24-Statements\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>\\\hofp02\\GAP\\T24\\T24 Bulk Printing_Statement\\Statement_Backup\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

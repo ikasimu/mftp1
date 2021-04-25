@@ -1,0 +1,20 @@
+<mftp>
+    <transferName>FMR_VET_SPLITTER_TO_EZAGA</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\hoprdappclv01\\BPS_Outbound\\Ezaga\\EFT\\ER\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[WIN]\\\10.0.2.18\\C$\\FTP Folders\\Ezaga\\PRODUCTION\\VET REPORT\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url></url>
+        </destination>
+    </destinations>
+</mftp>
+

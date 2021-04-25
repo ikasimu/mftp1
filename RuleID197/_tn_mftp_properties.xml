@@ -1,0 +1,32 @@
+<mftp>
+    <transferName>D5H* - SUREBANK</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\10.0.2.18\\c$\\FTP Folders\\Surebank\\AEDO\\From_Mycomax\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[WIN]\\\hoprdappclv01\\BPS_Inbound\\Amber\\D5\\</url>
+        </destination>
+        <destination>
+            <name>Destination2</name>
+            <url>ID2[WIN]\\\HOPRDGPAPP01\\c$\\Applications\\AEDONAEDO\\IncomingFiles\\</url>
+        </destination>
+        <destination>
+            <name>Destination3</name>
+            <url>ID3[WIN]\\\HOPRDGPAPP01\\c$\\Applications\\AEDONAEDO MONTH END STATS\\</url>
+        </destination>
+        <destination>
+            <name>Destination4</name>
+            <url>ID4[WIN]\\\hofp02\\OPERATIONS DEPARTMENT2\\SABA D5H\\Surebank\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>\\\hofp03\\d$\\Archived\\Filemover Backup\\D5H\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

@@ -1,0 +1,32 @@
+<mftp>
+    <transferName>FMR_SIS_ENT_PRD_INBOUND_TRANS</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\10.0.2.18\\c$\\FTP Folders\\DirectTransact\\ENTERPRISE_PRODUCTION\\FROM ENTERPRISE\\SIS FILES\\SIS PROD\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[WIN]\\\192.168.2.80\\d$\\SIS_INBOUND\\INBOUND_ENT\\</url>
+        </destination>
+        <destination>
+            <name>Destination2</name>
+            <url>ID4[WIN]\\\hofp03\\d$\\Archived\\Filemover Backup\\Intellimatch\\ENT\\</url>
+        </destination>
+        <destination>
+            <name>Destination3</name>
+            <url>ID2[SFTP]filemover@10.70.6.35:22/abinitio/data/landing/sis_inbound/inbound_ent</url>
+        </destination>
+        <destination>
+            <name>Destination4</name>
+            <url>ID3[WIN]\\\houatappclv01\\d$\\SIS_INBOUND\\INBOUND_ENT\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>\\\hofp03\\d$\\Archived\\SIS\\ENTERPRISE-SIS\\PROD\\INBOUND\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

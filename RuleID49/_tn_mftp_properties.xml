@@ -1,0 +1,28 @@
+<mftp>
+    <transferName>IFRS_Recal_Report</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\hofp02\\IFRS_RECAL\\B_ IFRS 9 ICE MODEL\\MODEL OUTPUT REPORTS\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[WIN]\\\10.0.3.20\\c$\\IFRS9_V3\\Report_Master\\</url>
+        </destination>
+        <destination>
+            <name>Destination2</name>
+            <url>ID2[SFTP]filemover@10.70.6.35:22/abinitio/data/landing/sis_inbound/inbound_other/IFRS9/recal</url>
+        </destination>
+        <destination>
+            <name>Destination3</name>
+            <url>ID3[SFTP]filemover@192.168.2.91:22/abinitio/data/landing/sis_inbound/inbound_other/IFRS9/recal</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>\\\10.0.3.20\\c$\\IFRS9_V3\\EXCEPTIONS\\Archive\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

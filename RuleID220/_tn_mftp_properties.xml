@@ -1,0 +1,20 @@
+<mftp>
+    <transferName>BOPCARD_AML</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\10.0.1.92\\c$\\Tilde\\Processed\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[WIN]\\\10.0.2.32\\c$\\BOPAML\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>\\\hoapp01\\heywoods\\Imported\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

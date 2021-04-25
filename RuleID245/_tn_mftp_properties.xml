@@ -1,0 +1,20 @@
+<mftp>
+    <transferName>FRM_T24_R19_BOPCUS_IFTR_RISKSECURE</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\192.168.2.215\\d$\\t24prod\\t24\\bnk\\UD\\BOP.OUT.CSV\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[WIN]\\\10.0.2.32\\c$\\Extracts\\BOPC_Import\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>\\\hofp03\\d$\\Archived\\IFTR\\BOPCUS\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

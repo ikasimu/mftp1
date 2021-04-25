@@ -1,0 +1,20 @@
+<mftp>
+    <transferName>BPS_DB_SPLITTER_TO_AMBER</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\hoprdappclv01\\BPS_Outbound\\Amber\\ADO\\DB\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[WIN]\\\10.0.2.18\\c$\\FTP Folders\\Surebank\\AEDO\\To_Mycomax\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>\\\HOFP03\\Archived\\Filemover Backup\\AMBER\\PRODUCTION\\ADO\\DB\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

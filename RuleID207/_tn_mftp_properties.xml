@@ -1,0 +1,24 @@
+<mftp>
+    <transferName>SAMEDAY_TO_BANKSERV</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\10.0.2.18\\c$\\FTP Folders\\DirectTransact\\ENTERPRISE_PRODUCTION\\FROM ENTERPRISE\\EFT\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID2[WIN]\\\hoprdappclv01\\BPS_Inbound\\Enterprise\\SAMEDAY\\</url>
+        </destination>
+        <destination>
+            <name>Destination2</name>
+            <url>ID1[WIN]\\\hofp03\\d$\\Archived\\Filemover Backup\\Intellimatch\\TO_BANKSERV\\ENT\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>\\\hofp03\\d$\\Archived\\Filemover Backup\\DIRECT TRANSACT\\PRODUCTION\\EFT\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

@@ -1,0 +1,24 @@
+<mftp>
+    <transferName>FMR_SUREBANK_TO_BANKSERV_SAMEDAY</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\10.0.2.18\\c$\\FTP Folders\\Surebank\\FTP\\From_Mycomax\\EFT_FILES\\SSV\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID2[WIN]\\\hoprdappclv01\\BPS_Inbound\\Amber\\SAMEDAY\\</url>
+        </destination>
+        <destination>
+            <name>Destination2</name>
+            <url>ID1[WIN]\\\hofp03\\d$\\Archived\\Filemover Backup\\Intellimatch\\TO_BANKSERV\\AMB\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>\\\hofp03\\d$\\Archived\\Filemover Backup\\from - surebank\\EFT\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

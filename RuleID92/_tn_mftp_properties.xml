@@ -1,0 +1,28 @@
+<mftp>
+    <transferName>BANKSERV_SWIFT_TO_UNIGRO_8140</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[SFTP]bathzajj@196.36.104.24:22/Allianz/8140</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID2[WIN]\\\10.0.2.18\\c$\\FTP Folders\\Olympus\\PRODUCTION\\SWIFT\\UNIGRO\\</url>
+        </destination>
+        <destination>
+            <name>Destination2</name>
+            <url>ID1[WIN]\\\hoapprbt02\\e$\\Robot_Inbound\\Swift\\Unigro\\ToDo\\</url>
+        </destination>
+        <destination>
+            <name>Destination3</name>
+            <url>ID3[SFTP]filemover@10.70.6.35:22/abinitio/data/landing/swift_inbound/unigro</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>\\\hofp03\\d$\\Archived\\Filemover Backup\\OLYMPUS\\PRODUCTION\\SWIFT\\UNIGRO\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

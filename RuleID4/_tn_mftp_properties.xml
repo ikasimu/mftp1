@@ -1,0 +1,28 @@
+<mftp>
+    <transferName>IFRS_Production_Staging</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\hofp02\\IFRS\\C_STAGING AND REPORTS\\STAGING\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[WIN]\\\10.0.3.20\\c$\\IFRS9_V2\\STAGING\\</url>
+        </destination>
+        <destination>
+            <name>Destination2</name>
+            <url>ID2[SFTP]filemover@10.70.6.35:22/abinitio/data/landing/sis_inbound/inbound_other/IFRS9/prod</url>
+        </destination>
+        <destination>
+            <name>Destination3</name>
+            <url>ID3[SFTP]filemover@192.168.2.91:22/abinitio/data/landing/sis_inbound/inbound_other/IFRS9/prod</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url></url>
+        </destination>
+    </destinations>
+</mftp>
+

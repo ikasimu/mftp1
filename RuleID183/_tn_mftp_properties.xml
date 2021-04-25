@@ -1,0 +1,32 @@
+<mftp>
+    <transferName>FMR_SIS_MMI_PRD_INBOUND_DLY</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\10.0.2.18\\c$\\FTP Folders\\MMI\\PRODUCTION\\SIS FILES\\FROM MMI\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[WIN]\\\192.168.2.80\\d$\\SIS_INBOUND\\INBOUND_MMI\\</url>
+        </destination>
+        <destination>
+            <name>Destination2</name>
+            <url>ID2[WIN]\\\hoprdappclv01\\d$\\SIS_INBOUND\\INBOUND_MMI\\</url>
+        </destination>
+        <destination>
+            <name>Destination3</name>
+            <url>ID3[WIN]\\\houatappclv01\\d$\\SIS_INBOUND\\INBOUND_MMI\\</url>
+        </destination>
+        <destination>
+            <name>Destination4</name>
+            <url>ID4[SFTP]filemover@10.70.6.35:22/abinitio/data/landing/sis_inbound/inbound_momentum</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>\\\hofp03\\d$\\Archived\\SIS\\MOMENTUM-SIS\\PROD\\INBOUND\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

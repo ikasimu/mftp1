@@ -1,0 +1,24 @@
+<mftp>
+    <transferName>BANKSERV_SWIFT_TO_GROBANK_1000</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[SFTP]bathzajj@196.36.104.24:22/Allianz/1000</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID2[WIN]\\\hoapprbt02\\e$\\Robot_Inbound\\Swift\\Grobank\\ToDo\\</url>
+        </destination>
+        <destination>
+            <name>Destination2</name>
+            <url>ID1[SFTP]filemover@10.70.6.35:22/abinitio/data/landing/swift_inbound/grobank</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>\\\hofp03\\d$\\Archived\\Filemover Backup\\GROBANK\\PRODUCTION\\SWIFT\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

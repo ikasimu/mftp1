@@ -1,0 +1,20 @@
+<mftp>
+    <transferName>CLC_REPORT_TO_OPS</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\hoprdappclv01\\BPS_Outbound\\Internal\\L2\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[WIN]\\\192.168.2.46\\Operations\\Absa Initiative\\Daily CLC Reports\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>C:\\Users\\FILEMO~1\\AppData\\Local\\Temp\\2\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

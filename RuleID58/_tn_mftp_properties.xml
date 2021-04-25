@@ -1,0 +1,28 @@
+<mftp>
+    <transferName>FLEXPAY_TO_SIS_INBOUND_TRANS</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\10.71.5.21\\d$\\FTPROOT\\FLEXPAY\\INBOUND\\SIS\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[SFTP]filemover@192.168.2.91:22/abinitio/data/landing/sis_inbound/inbound_flexpay</url>
+        </destination>
+        <destination>
+            <name>Destination2</name>
+            <url>ID3[WIN]\\\hofp03\\d$\\Archived\\Filemover Backup\\Intellimatch\\FLX\\</url>
+        </destination>
+        <destination>
+            <name>Destination3</name>
+            <url>ID6[WIN]\\\hoprdappclv01\\d$\\SIS_INBOUND\\INBOUND_FLEXPAY\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>\\\hofp03\\d$\\Archived\\SIS\\FLEXPAY-SIS\\PROD\\INBOUND\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

@@ -1,0 +1,24 @@
+<mftp>
+    <transferName>PROD_SIS_GL_Details_*</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\hoprdappclv01\\d$\\SIS_OUTBOUND\\OUTBOUND_GP\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[WIN]\\\HOPRDGPAPP01\\c$\\Applications\\USL\\GP_IN\\</url>
+        </destination>
+        <destination>
+            <name>Destination2</name>
+            <url>ID2[WIN]\\\hofp03\\d$\\Archived\\Filemover Backup\\Intellimatch\\GP\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>\\\hofp03\\d$\\Archived\\SIS\\GP-SIS\\PROD\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

@@ -1,0 +1,20 @@
+<mftp>
+    <transferName>D4H* - ENTERPRISE</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\10.0.2.18\\c$\\FTP Folders\\DirectTransact\\ENTERPRISE_PRODUCTION\\FROM ENTERPRISE\\ADO\\D4H\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[WIN]\\\hoprdappclv01\\BPS_Inbound\\Enterprise\\D4\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>\\\10.0.2.9\\d$\\Filemover\\Archive\\D4H\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

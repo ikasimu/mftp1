@@ -1,0 +1,20 @@
+<mftp>
+    <transferName>FMR_ENTERPRISE_CHEQUEBOOK_TO_OPS</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\10.0.2.18\\c$\\FTP Folders\\DirectTransact\\ENTERPRISE_PRODUCTION\\FROM ENTERPRISE\\CHEQUE BOOK ORDER\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[WIN]\\\192.168.3.18\\d$\\CHEQUE BOOK\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url></url>
+        </destination>
+    </destinations>
+</mftp>
+

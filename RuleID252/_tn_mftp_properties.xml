@@ -1,0 +1,24 @@
+<mftp>
+    <transferName>FMR_BPS_OUTBOUND_SASW_TO OLYMPUS</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\hoprdappclv01\\BPS_Outbound\\OLYMPUS\\SASW\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[WIN]\\\Hofp02\\operations department2\\SASWITCH_REPORTS\\Olympus\\</url>
+        </destination>
+        <destination>
+            <name>Destination2</name>
+            <url>ID2[WIN]\\\hofp03\\d$\\Archived\\Filemover Backup\\Intellimatch\\FRM_BANKSERV\\SASWITCH\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>\\\hofp03\\d$\\Archived\\Filemover Backup\\OLYMPUS\\PRODUCTION\\SASWITCH\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

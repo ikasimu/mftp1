@@ -1,0 +1,20 @@
+<mftp>
+    <transferName>FLEXPAY_TO_REPORTS_INBOUND</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\10.71.5.21\\d$\\FTPROOT\\FLEXPAY\\INBOUND\\REPORTS\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[WIN]\\\hofp02\\OPERATIONS DEPARTMENT2\\FNDS_Settlement_Recons\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>\\\hofp03\\d$\\Archived\\Filemover Backup\\FLEXPAY\\PRD\\FROM\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

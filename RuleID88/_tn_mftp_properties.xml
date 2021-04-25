@@ -1,0 +1,28 @@
+<mftp>
+    <transferName>BANKSERV_SWIFT_TO_AMBER_WIZZIT_4000</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[SFTP]bathzajj@196.36.104.24:22/Allianz/4000</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID2[WIN]\\\10.0.2.18\\c$\\FTP Folders\\Surebank\\SWIFT\\</url>
+        </destination>
+        <destination>
+            <name>Destination2</name>
+            <url>ID1[WIN]\\\hoapprbt02\\e$\\Robot_Inbound\\Swift\\Amber\\ToDo\\</url>
+        </destination>
+        <destination>
+            <name>Destination3</name>
+            <url>ID3[SFTP]filemover@10.70.6.35:22/abinitio/data/landing/swift_inbound/amber</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>\\\hofp03\\d$\\Archived\\Filemover Backup\\AMBER\\PRODUCTION\\WIZZIT\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

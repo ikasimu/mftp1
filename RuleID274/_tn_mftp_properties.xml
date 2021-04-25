@@ -1,0 +1,32 @@
+<mftp>
+    <transferName>FMR_ENTERPRISE_D5H0001D</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\10.0.2.18\\c$\\FTP Folders\\DirectTransact\\ENTERPRISE_PRODUCTION\\FROM ENTERPRISE\\ADO\\D5H\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[WIN]\\\hoprdappclv01\\BPS_Inbound\\Enterprise\\D5\\</url>
+        </destination>
+        <destination>
+            <name>Destination2</name>
+            <url>ID2[WIN]\\\HOPRDGPAPP01\\c$\\Applications\\AEDONAEDO\\IncomingFiles\\</url>
+        </destination>
+        <destination>
+            <name>Destination3</name>
+            <url>ID3[WIN]\\\HOPRDGPAPP01\\c$\\Applications\\AEDONAEDO MONTH END STATS\\</url>
+        </destination>
+        <destination>
+            <name>Destination4</name>
+            <url>ID4[WIN]\\\hofp02\\OPERATIONS DEPARTMENT2\\SABA D5H\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>\\\hofp03\\D$\\Archived\\Filemover Backup\\DIRECT TRANSACT\\PRODUCTION\\ADO\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

@@ -1,0 +1,20 @@
+<mftp>
+    <transferName>GP_TRIAL_BALANCE_TO_INTELLIMATCH</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\192.168.2.87\\C$\\Applications\\IntellimatchDaily\\TB_OUT\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[WIN]\\\hofp03\\d$\\Archived\\Filemover Backup\\Intellimatch\\GP\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>\\\hofp03\\d$\\Archived\\Filemover Backup\\GP_TRIAL_BALANCE\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

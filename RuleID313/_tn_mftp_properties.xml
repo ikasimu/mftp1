@@ -1,0 +1,20 @@
+<mftp>
+    <transferName>FMR_EFT_SPLITTER_TO_RETRIVER_DATED</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\hoprdappclv01\\BPS_Outbound\\Retriever\\EFT\\DATED\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[WIN]\\\10.0.2.18\\c$\\FTP Folders\\Olympus\\PRODUCTION\\EFT_FILES\\TO_RETRIEVER\\EFT\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>\\\hofp03\\d$\\Archived\\Filemover Backup\\RETRIEVER\\PRODUCTION\\EFT\\TO_RETRIEVER\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

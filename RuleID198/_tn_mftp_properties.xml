@@ -1,0 +1,28 @@
+<mftp>
+    <transferName>DEH* - ENTERPRISE</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\10.0.2.18\\c$\\FTP Folders\\DirectTransact\\ENTERPRISE_PRODUCTION\\FROM ENTERPRISE\\ADO\\DEH\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[WIN]\\\hoprdappclv01\\BPS_Inbound\\Enterprise\\DE\\</url>
+        </destination>
+        <destination>
+            <name>Destination2</name>
+            <url>ID2[WIN]\\\HOPRDGPAPP01\\c$\\Applications\\AEDONAEDO\\IncomingFiles\\</url>
+        </destination>
+        <destination>
+            <name>Destination3</name>
+            <url>ID3[WIN]\\\hofp03\\d$\\Archived\\Filemover Backup\\Intellimatch\\TO_BANKSERV\\ENT\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>\\\10.0.2.9\\d$\\Filemover\\Archive\\DEH\\</url>
+        </destination>
+    </destinations>
+</mftp>
+
