@@ -1,5 +1,5 @@
 <mftp>
-    <transferName>FRM_SWIFT_DAILYPRT_AUTO_2</transferName>
+    <transferName>FRM_SWIFT_DAILYPRT_AUTO_3</transferName>
     <environment>dev</environment>
     <source>
         <name>Source</name>
