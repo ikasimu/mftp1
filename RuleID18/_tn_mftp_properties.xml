@@ -1,5 +1,5 @@
 <mftp>
-    <transferName>CPS_TO_BPS_INBOUND</transferName>
+    <transferName>CPS_TO_BPS_INBOUND_2</transferName>
     <environment>dev</environment>
     <source>
         <name>Source</name>
@@ -17,8 +17,8 @@
         </destination>
         <destination>
             <name>Backup</name>
-            <url>\\\hofp03\\d$\\Archived\\PAYSOFT\\FROM CPS\\</url>
+            <url>\\\hofp03\\d$\\Archived\\PAYSOFT\\FROM CPS\\
+</url>
         </destination>
     </destinations>
 </mftp>
-

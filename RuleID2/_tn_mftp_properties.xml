@@ -1,5 +1,5 @@
 <mftp>
-    <transferName>FX_DEALS_OUTSTANDING</transferName>
+    <transferName>FX_DEALS_OUTSTANDING_2</transferName>
     <environment>dev</environment>
     <source>
         <name>Source</name>
@@ -13,8 +13,8 @@
         </destination>
         <destination>
             <name>Backup</name>
-            <url>\\\hofp02\\GAP\\T24\\T24 Bulk Printing_Statement\\Statement_Backup\\</url>
+            <url>\\\hofp02\\GAP\\T24\\T24 Bulk Printing_Statement\\Statement_Backup\\
+</url>
         </destination>
     </destinations>
 </mftp>
-

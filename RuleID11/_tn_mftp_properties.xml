@@ -1,5 +1,5 @@
 <mftp>
-    <transferName>FRM_SWIFT_DAILYPRT_AUTO</transferName>
+    <transferName>FRM_SWIFT_DAILYPRT_AUTO_2</transferName>
     <environment>dev</environment>
     <source>
         <name>Source</name>
@@ -21,8 +21,8 @@
         </destination>
         <destination>
             <name>Backup</name>
-            <url></url>
+            <url>
+</url>
         </destination>
     </destinations>
 </mftp>
-

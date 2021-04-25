@@ -1,5 +1,5 @@
 <mftp>
-    <transferName>AVS_OUTBOUND_TO_BANKSERV_SLBY</transferName>
+    <transferName>AVS_OUTBOUND_TO_BANKSERV_SLBY_2</transferName>
     <environment>dev</environment>
     <source>
         <name>Source</name>
@@ -13,8 +13,8 @@
         </destination>
         <destination>
             <name>Backup</name>
-            <url>\\\hofp03\\d$\\Archived\\BANKSERV\\TO BANKSERV\\AVS\\PRODUCTION\\</url>
+            <url>\\\hofp03\\d$\\Archived\\BANKSERV\\TO BANKSERV\\AVS\\PRODUCTION\\
+</url>
         </destination>
     </destinations>
 </mftp>
-
