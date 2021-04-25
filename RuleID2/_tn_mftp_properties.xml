@@ -1,5 +1,5 @@
 <mftp>
-    <transferName>FX_DEALS_OUTSTANDING_5</transferName>
+    <transferName>FX_DEALS_OUTSTANDING_6</transferName>
     <environment>dev</environment>
     <source>
         <name>Source</name>
