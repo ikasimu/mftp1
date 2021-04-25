@@ -1,5 +1,5 @@
 <mftp>
-    <transferName>T24_BULKPRT_IMPORT_3</transferName>
+    <transferName>T24_BULKPRT_IMPORT_4</transferName>
     <environment>dev</environment>
     <source>
         <name>Source</name>
