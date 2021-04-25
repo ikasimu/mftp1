@@ -1,5 +1,5 @@
 <mftp>
-    <transferName>BPS_UAT_TO_BANKSERV_25</transferName>
+    <transferName>BPS_UAT_TO_BANKSERV_26</transferName>
     <environment>dev</environment>
     <source>
         <name>TEST</name>
