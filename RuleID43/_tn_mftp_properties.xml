@@ -1,0 +1,20 @@
+<mftp>
+    <transferName>FM_DB_TO_CLOVER</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]C:\\ProgramData\\LimagitoX\\Bak\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[WIN]\\\hoprdappclv01\\d$\\utils\\FileMover\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url></url>
+        </destination>
+    </destinations>
+</mftp>
+

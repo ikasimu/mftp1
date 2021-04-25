@@ -1,0 +1,20 @@
+<mftp>
+    <transferName>FROM_SOFTSPLICE_TO_BANKSERV</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\10.0.2.18\\C$\\FTP Folders\\softsplice\\Production\\grobank\\out\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[SFTP]BoAthens@196.6.202.24:22</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>\\\hofp03\\d$\\Archived\\BANKSERV\\TO BANKSERV\\AC\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

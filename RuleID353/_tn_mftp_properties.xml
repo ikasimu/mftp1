@@ -1,0 +1,20 @@
+<mftp>
+    <transferName>AVS_BANKSERV_OUTBOUND_CHECK</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\hoprdappclv01\\avs_outbound\\BANKSERV\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[SMTP]noreply@grobank.co.za@smtp.office365.com:587</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url></url>
+        </destination>
+    </destinations>
+</mftp>
+

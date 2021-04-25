@@ -1,0 +1,20 @@
+<mftp>
+    <transferName>BANKSERV_SEC_INBOUND_ TO_BPS_INBOUND_TI</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\10.71.5.26\\d$\\FTP Folders\\BanServPRD\\SEC\\INBOUND\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID2[WIN]\\\hoprdappclv01\\BPS_Inbound\\BankServ\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>\\\hofp03\\d$\\Archived\\Filemover Backup\\BANKSERV\\PRD\\FROM\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

@@ -1,0 +1,24 @@
+<mftp>
+    <transferName>AML_SEC27_FROM ROBOT</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\hoapprbt02\\e$\\Robot_Outbound\\section27\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[SFTP]filemover@10.70.6.35:22/abinitio/data/landing/aml_inbound</url>
+        </destination>
+        <destination>
+            <name>Destination2</name>
+            <url>ID2[SFTP]filemover@192.168.2.91:22/abinitio/data/landing/aml_inbound</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>\\\hofp03\\d$\\Archived\\Filemover Backup\\AML\\Section27\\</url>
+        </destination>
+    </destinations>
+</mftp>
+

@@ -1,0 +1,24 @@
+<mftp>
+    <transferName>FM_REPORT</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\hoprdappclv01\\d$\\utils\\FileMover\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[WIN]\\\HOFP02\\it department\\FileMoverReport\\PRD_TI\\</url>
+        </destination>
+        <destination>
+            <name>Destination2</name>
+            <url>ID2[WIN]\\\Hofp02\\gap\\FileMoverReport\\PRD_TI\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url></url>
+        </destination>
+    </destinations>
+</mftp>
+

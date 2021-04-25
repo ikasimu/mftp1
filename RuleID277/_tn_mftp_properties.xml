@@ -1,0 +1,20 @@
+<mftp>
+    <transferName>FROM_BANKSERV_TO_GROBANK_IN_TI</transferName>
+    <environment>dev</environment>
+    <source>
+        <name>Source</name>
+        <url>[WIN]\\\10.71.5.26\\d$\\FTP Folders\\BanServPRD\\AC\\INBOUND\\</url>
+        <regex>*.*</regex>
+    </source>
+    <destinations>
+        <destination>
+            <name>Destination1</name>
+            <url>ID1[WIN]\\\10.0.2.18\\C$\\FTP Folders\\softsplice\\Production\\grobank\\in\\</url>
+        </destination>
+        <destination>
+            <name>Backup</name>
+            <url>\\\hofp03\\d$\\Archived\\BANKSERV\\FROM BANKSERVE\\AC\\</url>
+        </destination>
+    </destinations>
+</mftp>
+
