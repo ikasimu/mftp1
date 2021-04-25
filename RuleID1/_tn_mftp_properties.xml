@@ -1,5 +1,5 @@
 <mftp>
-    <transferName>IFRS_Production_Exceptions_6</transferName>
+    <transferName>IFRS_Production_Exceptions_7</transferName>
     <environment>dev</environment>
     <source>
         <name>Source</name>
