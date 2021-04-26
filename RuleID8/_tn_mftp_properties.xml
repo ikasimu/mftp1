@@ -1,5 +1,5 @@
 <mftp>
-    <transferName>AVS_OUTBOUND_TO_BANKSERV_SLBY_48</transferName>
+    <transferName>AVS_OUTBOUND_TO_BANKSERV_SLBY_49</transferName>
     <environment>dev</environment>
     <source>
         <name>Source</name>
