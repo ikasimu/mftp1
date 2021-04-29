@@ -27,7 +27,7 @@ pipeline {
     maven 'Maven'
   }
   environment {
-    GIT_CRED = credentials('ismail-kred')
+    GIT_CRED = credentials('eb6e744c-0931-4b00-892b-d653d9ea20e3')
     REPO_NAME = 'mftp1'
     TEMPLATE_REPO_URL = 'https://github.com/buffdeveloper/mftp_temp.git'
     LOCAL_TEMPLATE_DIR = '/opt/tools/mftp_project/mftp_temp'
