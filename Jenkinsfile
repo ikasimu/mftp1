@@ -23,9 +23,6 @@ pipeline {
     }
 
   }
-  tools {
-    maven 'Maven'
-  }
   environment {
     GIT_CRED = credentials('eb6e744c-0931-4b00-892b-d653d9ea20e3')
     REPO_NAME = 'mftp1'
