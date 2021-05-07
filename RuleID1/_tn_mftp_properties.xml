@@ -1,9 +1,9 @@
 <mftp>
-    <transferName>BANKSERV_TO_AVS_INBOUND_2</transferName>
+    <transferName>BANKSERV_TO_AVS_INBOUND</transferName>
     <environment>dev</environment>
     <source>
         <name>Source</name>
-        <url>ID2[WIN]\\houatappclv01\d$\AVS_INBOUND\BANKSERV</url>
+        <url>ID2[WIN]\\\houatappclv01\\d$\\AVS_INBOUND\\BANKSERV\\</url>
         <regex>*.*</regex>
     </source>
     <destinations>
@@ -13,3 +13,4 @@
         </destination>
     </destinations>
 </mftp>
+

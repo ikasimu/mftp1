@@ -3,7 +3,7 @@
     <environment>dev</environment>
     <source>
         <name>Source</name>
-        <url>ID1[WIN]\\10.0.2.18\C$\FTP Folders\SoftSplice\Development\grobank\in\</url>
+        <url>ID1[WIN]\\\10.0.2.18\\\\C$\\FTP Folders\\\\SoftSplice\\\\Development\\grobank\\in\\</url>
         <regex>*.*</regex>
     </source>
     <destinations>

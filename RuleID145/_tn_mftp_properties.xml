@@ -3,7 +3,7 @@
     <environment>dev</environment>
     <source>
         <name>Source</name>
-        <url>ID2[WIN]\\houatappclv01\d$\BPS_Inbound\BankServ\</url>
+        <url>ID2[WIN]\\\houatappclv01\\d$\\BPS_Inbound\\BankServ\\</url>
         <regex>*.*</regex>
     </source>
     <destinations>
