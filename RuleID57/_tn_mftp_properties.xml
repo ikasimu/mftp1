@@ -1,5 +1,5 @@
 <mftp>
-    <transferName>BPS_UAT_EFT_OUTBOUND_TO_BANKSERV_SLBY</transferName>
+    <transferName>BPS_UAT_EFT_OUTBOUND_TO_BANKSERV_SLBY_1</transferName>
     <environment>dev</environment>
     <source>
         <name>Source</name>
@@ -13,4 +13,3 @@
         </destination>
     </destinations>
 </mftp>
-
