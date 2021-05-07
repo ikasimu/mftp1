@@ -1,19 +1,15 @@
 <mftp>
-    <transferName>FROM_ENTERPRISE_TO_SOFTSPLICE</transferName>
+    <transferName>FROM_SURESYSTEM_TO_BANKSERV</transferName>
     <environment>dev</environment>
     <source>
         <name>Source</name>
-        <url>[WIN]\\\10.0.2.18\\C$\\FTP Folders\\DirectTransact\\ENTERPRISE_PRODUCTION\\FROM ENTERPRISE\\AC\\</url>
+        <url>ID1[SFTP]BoAthens@196.6.202.25:22/ftp/</url>
         <regex>*.*</regex>
     </source>
     <destinations>
         <destination>
             <name>Destination1</name>
-            <url>ID1[WIN]\\\10.0.2.18\\C$\\FTP Folders\\softsplice\\Production\\grobank\\dt\\in\\</url>
-        </destination>
-        <destination>
-            <name>Backup</name>
-            <url>\\\hofp03\\d$\\Archived\\Filemover Backup\\DIRECT TRANSACT\\PRODUCTION\\AC\\</url>
+            <url></url>
         </destination>
     </destinations>
 </mftp>

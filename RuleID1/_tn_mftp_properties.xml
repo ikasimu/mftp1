@@ -1,20 +1,16 @@
 <mftp>
-    <transferName>IFRS_Production_Exceptions_1</transferName>
+    <transferName>BANKSERV_TO_AVS_INBOUND</transferName>
     <environment>dev</environment>
     <source>
         <name>Source</name>
-        <url>[WIN]\\\10.0.3.20\\c$\\IFRS9_V2\\EXCEPTIONS\\</url>
+        <url>ID2[WIN]\\houatappclv01\d$\AVS_INBOUND\BANKSERV\</url>
         <regex>*.*</regex>
     </source>
     <destinations>
         <destination>
             <name>Destination1</name>
-            <url>ID1[WIN]\\\hofp02\\IFRS\\C_STAGING AND REPORTS\\REPORTS\\</url>
-        </destination>
-        <destination>
-            <name>Backup</name>
-            <url>\\\10.0.3.20\\c$\\IFRS9_V2\\EXCEPTIONS\\Archive\\
-</url>
+            <url></url>
         </destination>
     </destinations>
 </mftp>
+

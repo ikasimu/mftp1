@@ -1,19 +1,15 @@
 <mftp>
-    <transferName>BPS_BANKSERV_OUTBOUND_CHECK</transferName>
+    <transferName>BPS_UAT_CLC_OUTBOUND_TO_BANKSERV_SLBY</transferName>
     <environment>dev</environment>
     <source>
         <name>Source</name>
-        <url>[WIN]\\\hoprdappclv01\\bps_outbound\\BankServ\\</url>
+        <url>ID1[SFTP]BoAthens@196.6.202.25:22/ftp/</url>
         <regex>*.*</regex>
     </source>
     <destinations>
         <destination>
             <name>Destination1</name>
-            <url>ID1[SMTP]noreply@grobank.co.za@smtp.office365.com:587</url>
-        </destination>
-        <destination>
-            <name>Backup</name>
-            <url></url>
+            <url></url>
         </destination>
     </destinations>
 </mftp>

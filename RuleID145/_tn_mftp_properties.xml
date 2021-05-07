@@ -1,9 +1,9 @@
 <mftp>
-    <transferName>FROM_BANKSERV_TO_GROBANK_IN</transferName>
+    <transferName>BANKSERV_TO_BPS_INBOUND</transferName>
     <environment>dev</environment>
     <source>
         <name>Source</name>
-        <url>ID1[WIN]\\10.0.2.18\C$\FTP Folders\SoftSplice\Development\grobank\in\</url>
+        <url>ID2[WIN]\\houatappclv01\d$\BPS_Inbound\BankServ\</url>
         <regex>*.*</regex>
     </source>
     <destinations>

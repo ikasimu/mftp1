@@ -1,19 +1,15 @@
 <mftp>
-    <transferName>TRANSFER REQUESTS REVERSAL</transferName>
+    <transferName>BPS_UAT_SASW_OUTBOUND_TO_BANKSERV_SLBY</transferName>
     <environment>dev</environment>
     <source>
         <name>Source</name>
-        <url>[WIN]\\\192.168.2.215\\d$\\t24prod\\t24\\bnk\\UD\\DT.OUT\\</url>
+        <url>ID1[SFTP]BoAthens@196.6.202.25:22/ftp/</url>
         <regex>*.*</regex>
     </source>
     <destinations>
         <destination>
             <name>Destination1</name>
-            <url>ID1[WIN]\\\Hoappwebsys01\\T24Services\\TransferRequestsReversal\\</url>
-        </destination>
-        <destination>
-            <name>Backup</name>
-            <url></url>
+            <url></url>
         </destination>
     </destinations>
 </mftp>

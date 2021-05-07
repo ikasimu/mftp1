@@ -1,9 +1,9 @@
 <mftp>
-    <transferName>FROM_BANKSERV_TO_GROBANK_IN</transferName>
+    <transferName>BPS_UAT_SETT_OUTBOUND_TO_BANKSERV_SLBY</transferName>
     <environment>dev</environment>
     <source>
         <name>Source</name>
-        <url>ID1[WIN]\\10.0.2.18\C$\FTP Folders\SoftSplice\Development\grobank\in\</url>
+        <url>ID1[SFTP]BoAthens@196.6.202.25:22/ftp/</url>
         <regex>*.*</regex>
     </source>
     <destinations>

@@ -1,19 +1,15 @@
 <mftp>
-    <transferName>CPS_TO_AVS_INBOUND</transferName>
+    <transferName>BPS_UAT_EFT_OUTBOUND_TO_BANKSERV_SLBY</transferName>
     <environment>dev</environment>
     <source>
         <name>Source</name>
-        <url>[WIN]\\\10.71.5.21\\d$\\FTPROOT\\CPS\\INBOUND\\AVS\\BA\\</url>
+        <url>ID1[SFTP]BoAthens@196.6.202.25:22/ftp</url>
         <regex>*.*</regex>
     </source>
     <destinations>
         <destination>
             <name>Destination1</name>
-            <url>ID1[WIN]\\\hoprdappclv01\\avs_inbound\\PAYSABA\\</url>
-        </destination>
-        <destination>
-            <name>Backup</name>
-            <url>\\\hofp03\\d$\\Archived\\PAYSOFT\\FROM CPS\\AVS\\PRODUCTION\\</url>
+            <url></url>
         </destination>
     </destinations>
 </mftp>

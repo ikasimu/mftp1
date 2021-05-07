@@ -1,19 +1,15 @@
 <mftp>
-    <transferName>FROM _AMBER_TO_BANKSERV</transferName>
+    <transferName>FROM_SOFTSPLICE_TO_BANKSERV</transferName>
     <environment>dev</environment>
     <source>
         <name>Source</name>
-        <url>[WIN]\\\10.0.2.18\\c$\\FTP Folders\\Surebank\\AC_PRODUCTION\\FROM_SUREBANK\\</url>
+        <url>ID1[SFTP]BoAthens@196.6.202.25:22/ftp/</url>
         <regex>*.*</regex>
     </source>
     <destinations>
         <destination>
             <name>Destination1</name>
-            <url>ID1[SFTP]BoAthens@196.6.202.24:22</url>
-        </destination>
-        <destination>
-            <name>Backup</name>
-            <url>\\\hofp03\\d$\\Archived\\Filemover Backup\\AMBER\\PRODUCTION\\AC\\</url>
+            <url></url>
         </destination>
     </destinations>
 </mftp>

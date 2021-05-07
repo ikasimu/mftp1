@@ -1,19 +1,15 @@
 <mftp>
-    <transferName>T24_MT103_INBOUND</transferName>
+    <transferName>BPS_UAT_ADO_OUTBOUND_TO_BANKSERV_SLBY</transferName>
     <environment>dev</environment>
     <source>
         <name>Source</name>
-        <url>[SFTP]bathzajj@196.36.104.24:22/T24/MT103/</url>
+        <url>ID1[SFTP]BoAthens@196.6.202.25:22/ftp/</url>
         <regex>*.*</regex>
     </source>
     <destinations>
         <destination>
             <name>Destination1</name>
-            <url>ID2[WIN]\\\192.168.2.215\\ud\\ALLIANCE\\SWIFT.ENC.IN\\</url>
-        </destination>
-        <destination>
-            <name>Backup</name>
-            <url>\\\hofp03\\d$\\Archived\\Filemover Backup\\T24 Swift\\</url>
+            <url></url>
         </destination>
     </destinations>
 </mftp>
