@@ -1,5 +1,5 @@
 <mftp>
-    <transferName>BANKSERV_TO_AVS_INBOUND_4</transferName>
+    <transferName>BANKSERV_TO_AVS_INBOUND_6</transferName>
     <environment>dev</environment>
     <source>
         <name>Source</name>
