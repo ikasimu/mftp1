@@ -1,5 +1,5 @@
 <mftp>
-    <transferName>PAYSOFT_TO_BPS_INBOUND_1</transferName>
+    <transferName>PAYSOFT_TO_BPS_INBOUND_2</transferName>
     <environment>dev</environment>
     <source>
         <name>Source</name>
