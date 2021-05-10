@@ -1,5 +1,5 @@
 <mftp>
-    <transferName>CPS_TO_AVS_OUTBOUND_BG_8</transferName>
+    <transferName>CPS_TO_AVS_OUTBOUND_BG_11</transferName>
     <environment>dev</environment>
     <source>
         <name>Source</name>

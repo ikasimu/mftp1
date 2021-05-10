@@ -1,5 +1,5 @@
 <mftp>
-    <transferName>FLEXPAY_TO_BPS_INBOUND_8</transferName>
+    <transferName>FLEXPAY_TO_BPS_INBOUND_11</transferName>
     <environment>dev</environment>
     <source>
         <name>Source</name>

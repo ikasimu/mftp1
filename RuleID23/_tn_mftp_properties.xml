@@ -1,5 +1,5 @@
 <mftp>
-    <transferName>MEDICOOP_TO_BPS_INBOUND_8</transferName>
+    <transferName>MEDICOOP_TO_BPS_INBOUND_11</transferName>
     <environment>dev</environment>
     <source>
         <name>Source</name>

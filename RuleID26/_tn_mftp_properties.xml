@@ -1,5 +1,5 @@
 <mftp>
-    <transferName>PAYSOFT_TO_AVS_OUTBOUND_BT_8</transferName>
+    <transferName>PAYSOFT_TO_AVS_OUTBOUND_BT_11</transferName>
     <environment>dev</environment>
     <source>
         <name>Source</name>
