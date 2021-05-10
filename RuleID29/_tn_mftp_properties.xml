@@ -1,5 +1,5 @@
 <mftp>
-    <transferName>PAYSOFT_TO_AVS_OUTBOUND_BG</transferName>
+    <transferName>PAYSOFT_TO_AVS_OUTBOUND_BG_8</transferName>
     <environment>dev</environment>
     <source>
         <name>Source</name>
@@ -13,8 +13,8 @@
         </destination>
         <destination>
             <name>Backup</name>
-            <url>\\\hofp03\\d$\\Archived\\PAYSOFT\\TO PAYSOFT\\AVS\\PRODUCTION\\</url>
+            <url>\\\hofp03\\d$\\Archived\\PAYSOFT\\TO PAYSOFT\\AVS\\PRODUCTION\\
+</url>
         </destination>
     </destinations>
 </mftp>
-

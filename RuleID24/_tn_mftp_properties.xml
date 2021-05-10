@@ -1,5 +1,5 @@
 <mftp>
-    <transferName>FLEXPAY_TO_BPS_INBOUND</transferName>
+    <transferName>FLEXPAY_TO_BPS_INBOUND_8</transferName>
     <environment>dev</environment>
     <source>
         <name>Source</name>
@@ -17,8 +17,8 @@
         </destination>
         <destination>
             <name>Backup</name>
-            <url>\\\hofp03\\d$\\Archived\\UAT\\BPS\\FLEXPAY\\FROM\\</url>
+            <url>\\\hofp03\\d$\\Archived\\UAT\\BPS\\FLEXPAY\\FROM\\
+</url>
         </destination>
     </destinations>
 </mftp>
-
